@@ -7,5 +7,5 @@
     },
     "particle.targetPlatform": "argon",
     "particle.firmwareVersion": "1.5.4-rc.1",
-    "EXTRA_CFLAGS": "-DRELEASE_DATE=\"\"Fri Jul  3 13:22:12 EDT 2020\"\""
+    "EXTRA_CFLAGS": "-DRELEASE_DATE=\"Fri Jul  3 13:34:47 EDT 2020\""
 }
