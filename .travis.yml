@@ -11,3 +11,7 @@ install:
   - neopo install
 script:
   - neopo build
+cache:
+  directories:
+    - $HOME/.particle
+    - $HOME/.neopo
