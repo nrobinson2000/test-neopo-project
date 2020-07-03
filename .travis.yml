@@ -1,0 +1,13 @@
+# Build a neopo project with travis
+os: linux
+language: bash
+sudo: required
+install:
+  - export PATH="$PATH:$PWD"
+  - sudo apt update
+  - sudo apt install libarchive-zip-perl libc6-i386
+  - curl -LO https://raw.githubusercontent.com/nrobinson2000/neopo/master/bin/neopo
+  - chmod +x neopo
+  - neopo install
+script:
+  - neopo build
